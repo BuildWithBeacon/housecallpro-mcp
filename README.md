@@ -317,12 +317,6 @@ Once configured, you can ask Claude things like:
    - Make sure the Python file is executable
    - Check that uv has proper permissions
 
-### Debug Mode:
-
-Run the server with debug output:
-```bash
-uv run housecallpro_customers.py --debug
-```
 
 ## 🤝 Contributing
 
@@ -332,8 +326,7 @@ uv run housecallpro_customers.py --debug
 4. Submit a pull request
 
 ## 📄 License
-
-[Add your license here]
+It Aint, Use It As You Will
 
 ## 🔗 Related Links
 
