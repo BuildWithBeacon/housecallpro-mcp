@@ -214,7 +214,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ### 2. Clone and Setup Project
 
 ```bash
-git clone <your-repo-url>
+git clone 
 cd HousecallPro-mcp
 uv sync
 ```
@@ -222,24 +222,20 @@ uv sync
 ### 3. Get Housecall Pro API Key
 
 1. Log into your Housecall Pro account
-2. Go to Settings > Integrations > API
+2. Go to App Store > API Key Management > Generate
 3. Generate your API key
 4. Copy your API key (keep it secure!)
 
 ### 4. Environment Setup
 
-Create a `.env` file in the project root:
+Change ".env.example" to ".env"
+Fill in API Key with no space after =
 
-```env
-HOUSECALL_PRO_API_KEY=your_api_key_here
-```
 
 ### 5. Configure Claude Desktop
 
-#### Copy the template:
-```bash
-cp claude_desktop.json.template claude_desktop_config.json
-```
+#### Copy the claude_desktop.json template and paste into your AI MCP server config.
+
 
 #### Update paths in `claude_desktop_config.json`:
 
@@ -263,6 +259,8 @@ cp claude_desktop.json.template claude_desktop_config.json
   }
 }
 ```
+## Etc. Add all servers from the template provided and change the path to where you cloned.
+
 
 **macOS/Linux:**
 ```json
@@ -280,25 +278,21 @@ cp claude_desktop.json.template claude_desktop_config.json
   }
 }
 ```
+## Etc. Add all servers from the template provided and change the path to where you cloned.
 
 ### 6. Restart Claude Desktop
 
-After configuring, restart Claude Desktop to load the new MCP server.
+After configuring, restart Claude Desktop to load the new MCP server. You should now see the MCP servers available in the search and tools tab.
 
-## 🔧 Testing the Server
+![image](https://github.com/user-attachments/assets/2034688f-d97c-4a42-b3f1-a78e34b50714)
 
-Test the customers server directly:
-
-```bash
-uv run housecallpro_customers.py
-```
 
 ## 📝 Usage Examples
 
 Once configured, you can ask Claude things like:
 
 - "Show me all customers"
-- "Get customer details for ID 12345"
+- "Get me the customer ID for "name" "
 - "Create a new customer named John Doe"
 - "List all addresses for customer 12345"
 - "Add a new address for customer 12345"
