@@ -1,0 +1,184 @@
+{
+  "mcpServers": {
+    "housecall-pro-application": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_application.py"
+      ]
+    },
+    "housecall-pro-appointments": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_appointments.py"
+      ]
+    },
+    "housecall-pro-company": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_company.py"
+      ]
+    },
+    "housecall-pro-customers": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_customers.py"
+      ]
+    },
+    "housecall-pro-employees": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_employees.py"
+      ]
+    },
+    "housecall-pro-estimates": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_estimates.py"
+      ]
+    },
+    "housecall-pro-events": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_events.py"
+      ]
+    },
+    "housecall-pro-invoices": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_invoices.py"
+      ]
+    },
+    "housecall-pro-invoices-query": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_invoices_query.py"
+      ]
+    },
+    "housecall-pro-job-invoices": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_job_invoices.py"
+      ]
+    },
+    "housecall-pro-job-types": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_job_types.py"
+      ]
+    },
+    "housecall-pro-jobs": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_jobs.py"
+      ]
+    },
+    "housecall-pro-lead-sources": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_lead_sources.py"
+      ]
+    },
+    "housecall-pro-leads": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_leads.py"
+      ]
+    },
+    "housecall-pro-material-categories": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_material_categories.py"
+      ]
+    },
+    "housecall-pro-materials": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_materials.py"
+      ]
+    },
+    "housecall-pro-price-forms": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_price_forms.py"
+      ]
+    },
+    "housecall-pro-schedule": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_schedule.py"
+      ]
+    },
+    "housecall-pro-tags": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_tags.py"
+      ]
+    },
+    "housecall-pro-webhooks": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/path/to/your/HousecallPro-mcp",
+        "run",
+        "housecallpro_webhooks.py"
+      ]
+    }
+  }
+} 
