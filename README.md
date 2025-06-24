@@ -214,10 +214,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ### 2. Clone and Setup Project
 
 ```bash
-git clone 
+git clone https://github.com/BuildWithBeacon/housecallpro-mcp.git
 cd HousecallPro-mcp
 uv sync
 ```
+Or download ZIP and extract to chosen directory.
 
 ### 3. Get Housecall Pro API Key
 
